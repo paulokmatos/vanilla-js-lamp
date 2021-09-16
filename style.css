@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    height: 40px;
+    font-size: 1.5rem;
+    width: 8rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.buttons button:active {
+	position:relative;
+	top:1px;
+}
+
+.buttons button:nth-child(1) {
+    background-color: #009B77;
+    color: aliceblue;
+}
+.buttons button:nth-child(2) {
+    background-color: #DD4124;
+    color: aliceblue;
+}
